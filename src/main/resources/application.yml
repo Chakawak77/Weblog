@@ -1,0 +1,13 @@
+  server:
+    port: 9090
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/dbweblog
+      username: postgres
+      password: asra@mohammadi77
+
+    jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      database: postgresql
+      hibernate:
+        ddl-auto: update
